@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const CheckoutPage = () => {
   const [cart, setCart] = useState<any[]>([]);
@@ -54,9 +55,11 @@ const CheckoutPage = () => {
             {cart.map((item, index) => (
               <div key={index} className="flex justify-between py-2 border-b">
                 <div className="flex items-center">
-                  <img
+                  <Image
                     src={item.imageUrl || "/path/to/default-image.jpg"}
                     alt={item.name}
+                    height={100}
+                    width={100}
                     className="w-16 h-16 object-cover rounded-md mr-4"
                   />
                   <span>{item.name}</span>

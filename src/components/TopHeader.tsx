@@ -1,5 +1,4 @@
 // Home // header top
-import Image from "next/image"
 import { IoIosArrowDown } from "react-icons/io"
 export default function HeaderTop() {
     return (
