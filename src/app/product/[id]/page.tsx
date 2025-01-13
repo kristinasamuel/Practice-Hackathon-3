@@ -10,7 +10,7 @@ const ProductDetail = () => {
   const { id } = useParams(); 
   const [product, setProduct] = useState<any | null>(null);
   const [isAdded, setIsAdded] = useState(false); // State to track if item is added to the cart
-  // const router = useRouter();
+  const router = useRouter();
   useEffect(() => {
     if (id) {
       const query = `*[_type == "product" && _id == $id] {
