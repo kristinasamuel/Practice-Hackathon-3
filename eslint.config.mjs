@@ -1,3 +1,5 @@
+
+
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { FlatCompat } from "@eslint/eslintrc";
@@ -18,7 +20,12 @@ const eslintConfig = [
       'react/no-unescaped-entities': 'off',
       'import/no-anonymous-default-export': 'off',
       'react/prop-types': 'off',
+      '@typescript-eslint/no-unused-vars': ['error', { 
+        argsIgnorePattern: '^_', 
+        varsIgnorePattern: '^router$',  
+      }],
     },
   },
 ];
+
 export default eslintConfig;
