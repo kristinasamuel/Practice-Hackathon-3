@@ -8,7 +8,7 @@ export default function ContactPage() {
           Home
         </p>
         <Image
-          src={"/images/Line 13.png"}
+          src={"/images/line.png"}
           alt="Line "
           height={1}
           width={10}

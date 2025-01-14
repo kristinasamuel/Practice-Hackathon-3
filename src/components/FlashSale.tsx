@@ -206,8 +206,8 @@ export default function FlashSale() {
             </div>
             <div className="flex justify-center">
               <Image
-                src={"/images/Keyboard.png"}
-                alt="Remote"
+                src={"/images/board.png"}
+                alt="keyboard"
                 width={190}
                 height={180}
               />

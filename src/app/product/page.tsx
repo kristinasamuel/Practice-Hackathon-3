@@ -41,10 +41,10 @@ const DataFetch = async () => {
               key={product._id}
               className="bg-white rounded-lg  flex flex-col items-center justify-center"
             >
-              {/* Center the image with appropriate width and height */}
+              {/* fetch image */}
               <div className="w-full flex justify-center mb-4">
                 <Image
-                  src={product.imageUrl || "/path/to/default-image.jpg"} // Fallback image
+                  src={product.imageUrl}
                   alt={product.name}
                   width={200}
                   height={200}
@@ -63,7 +63,7 @@ const DataFetch = async () => {
                   </span>{" "}
                   ${product.price}
                 </p>
-                {/* Button at the bottom of the card */}
+                {/* Button detail of product show*/}
                 <Link href={`/product/${product._id}`}>
                   <Button
                     variant={"destructive"}

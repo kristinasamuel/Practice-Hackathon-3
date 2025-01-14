@@ -9,6 +9,7 @@ const CartPage = () => {
   const [cart, setCart] = useState<any[]>([]);
   const router = useRouter();
 
+  // local storage
   useEffect(() => {
     const storedCart = JSON.parse(localStorage.getItem("cart") || "[]");
     setCart(storedCart);
@@ -38,7 +39,7 @@ const CartPage = () => {
               {/* Product Image */}
               <div className="w-20 h-20 mr-4">
                 <Image
-                  src={item.imageUrl || "/path/to/default-image.jpg"} // Fallback image
+                  src={item.imageUrl }
                   alt={item.name}
                   width={100}
                   height={100}
@@ -70,7 +71,8 @@ const CartPage = () => {
       <div className="mt-8">
         <Button
           onClick={checkout}
-          className="bg-blue-500 text-white py-2 px-6 rounded-lg shadow-md hover:bg-blue-600 transition-colors"
+          variant={"destructive"}
+          className=" text-white text-[18px] py-2 px-6 rounded-lg shadow-md transition-colors"
         >
           Proceed to Checkout
         </Button>

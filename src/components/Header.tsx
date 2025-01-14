@@ -22,7 +22,7 @@ export default function Header() {
 
         {/* large screen  Menu (hidden on mobile) screen */}
         <div className="hidden md:flex w-[500px] justify-center">
-          <ul className="flex font-Poppins font-normal text-[18px] items-center gap-[48px]">
+          <ul className="flex font-Poppins font-normal text-[18px] items-center gap-8">
             <Link href={"/"}>
               <li className="hover:underline ">Home</li>
             </Link>
@@ -36,13 +36,10 @@ export default function Header() {
               <li className="hover:underline ">Product</li>
             </Link>
             <Link href={"/cart"}>
-              <li className="hover:underline mb-2"> Cart</li>
+              <li className="hover:underline"> Cart</li>
             </Link>
-            <Link href={"/Checkout"}>
-              <li className="hover:underline mb-2">CheckOut</li>
-            </Link>
-            <Link href={"/"}>
-              <li className="hover:underline ">Sign Up</li>
+            <Link href={"/checkout"}>
+              <li className="hover:underline ">CheckOut</li>
             </Link>
           </ul>
         </div>
@@ -94,7 +91,7 @@ export default function Header() {
             <Link href={"/cart"}>
               <li className="hover:underline underline-offset-4 mb-2"> Cart</li>
             </Link>
-            <Link href={"/Checkout"}>
+            <Link href={"/checkout"}>
               <li className="hover:underline underline-offset-4">CheckOut</li>
             </Link>
           </ul>

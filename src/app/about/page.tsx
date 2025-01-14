@@ -10,7 +10,7 @@ export default function page() {
           Home
         </p>
         <Image
-          src={"/images/Line 13.png"}
+          src={"/images/line.png"}
           alt="Line"
           height={1}
           width={10}
@@ -121,7 +121,7 @@ export default function page() {
         <div className="w-full md:w-[370px] h-full md:h-[564px] flex flex-col justify-center items-center">
           <div className="bg-[#F5F5F5] w-[370px] h-[430px] flex justify-center">
             <Image
-              src={"/images/profile1.png"}
+              src={"/images/Profile1.png"}
               alt="Tom"
               height={391}
               width={236}
@@ -137,19 +137,19 @@ export default function page() {
             </p>
             <div className="flex flex-row mt-2 space-x-3 justify-center">
               <Image
-                src={"/images/icon-Twitter.png"}
+                src={"/images/twitter.png"}
                 alt="twitter icon"
                 height={24}
                 width={24}
               />
               <Image
-                src={"/images/icon-Instagram.png"}
+                src={"/images/instagram.png"}
                 alt="Instagram icon"
                 height={24}
                 width={24}
               />
               <Image
-                src={"/images/icon-Linkedin.png"}
+                src={"/images/linkedin.png"}
                 alt="Linkedin icon"
                 height={24}
                 width={24}
@@ -177,19 +177,19 @@ export default function page() {
             </p>
             <div className="flex flex-row mt-2 space-x-3 justify-center">
               <Image
-                src={"/images/icon-Twitter.png"}
+                src={"/images/twitter.png"}
                 alt="twitter icon"
                 height={24}
                 width={24}
               />
               <Image
-                src={"/images/icon-Instagram.png"}
+                src={"/images/instagram.png"}
                 alt="Instagram icon"
                 height={24}
                 width={24}
               />
               <Image
-                src={"/images/icon-Linkedin.png"}
+                src={"/images/linkedin.png"}
                 alt="Linkedin icon"
                 height={24}
                 width={24}
@@ -217,19 +217,19 @@ export default function page() {
             </p>
             <div className="flex flex-row mt-2 space-x-3 justify-center">
               <Image
-                src={"/images/icon-Twitter.png"}
+                src={"/images/twitter.png"}
                 alt="twitter icon"
                 height={24}
                 width={24}
               />
               <Image
-                src={"/images/icon-Instagram.png"}
+                src={"/images/instagram.png"}
                 alt="Instagram icon"
                 height={24}
                 width={24}
               />
               <Image
-                src={"/images/icon-Linkedin.png"}
+                src={"/images/linkedin.png"}
                 alt="Linkedin icon"
                 height={24}
                 width={24}
