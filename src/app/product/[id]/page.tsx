@@ -1,4 +1,5 @@
- // // home    Product detail page 
+ // // home 
+ //  Product detail page 
 "use client";
 import { client } from "@/sanity/lib/client";
 import { useParams, useRouter } from "next/navigation";
